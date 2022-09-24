@@ -1,7 +1,8 @@
 body{
-    background: blue;
+    background: white;
 }
 
-h1{
+#header h1{
     color:azure;
+    font-family: Helvetica;
 }
