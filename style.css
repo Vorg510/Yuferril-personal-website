@@ -1,8 +1,22 @@
-body{
-    background: white;
+header {
+    display: flex;
+    justify-content: end;
 }
 
-#header h1{
-    color:azure;
+header a{
+    margin-right: 30px;
+}
+
+main h1{
     font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+
+}
+
+main img{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
