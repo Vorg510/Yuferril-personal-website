@@ -1,14 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /*Background colour*/
 body {
     background-color: #292929;
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+  
 
 header div.logo {
     display: flex;
     justify-content: left;
 }
 
+/*Logo Icon*/
 header img {
     width: 120px;
     margin-top: 30px;
@@ -29,6 +40,7 @@ header a {
     font-family: 'Montserrat';
 }
 
+
 header a:hover {
     color: burlywood;
 }
@@ -42,7 +54,7 @@ body h1 {
 }
 
 #about-section {
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 #about-section {
@@ -54,6 +66,7 @@ body h1 {
 
 .about-section-content{
     margin-top: 50px;
+    margin-bottom: 800px;
 }
 
 /*Img to the center*/
@@ -72,7 +85,7 @@ main img {
 .skills-section{
     display: flex;
     justify-content:space-evenly;
-    margin-top: 500px;
+
 
 }
 
