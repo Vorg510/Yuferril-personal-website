@@ -85,7 +85,7 @@ main img {
 .skills-section{
     display: flex;
     justify-content:space-evenly;
-
+    
 
 }
 
@@ -127,4 +127,14 @@ footer{
     font-family: 'Montserrat';
     display: flex;
     justify-content: center;
+}
+
+footer img{
+    width: 40px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
