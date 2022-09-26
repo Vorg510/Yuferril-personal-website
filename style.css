@@ -1,19 +1,36 @@
+/*Background colour*/
+body{
+    background-color: #292929 ;
+}
+
+/*Caption text*/
+body h1{
+    font-family: Helvetica;
+    color: #B1B1B1;
+    display: flex;
+    justify-content: center;
+}
+
+#about-section {
+    margin-top: 200px;
+}
+#about-section p{
+    font-family: Helvetica;
+    color: #B1B1B1;
+    display: flex;
+    justify-content: center;
+}
+
+/*Header links to the right*/
 header {
     display: flex;
     justify-content: end;
 }
-
 header a{
     margin-right: 30px;
 }
 
-main h1{
-    font-family: Helvetica;
-    display: flex;
-    justify-content: center;
-
-}
-
+/*Img to the center*/
 main img{
     width: 250px;
     display: flex;
