@@ -11,28 +11,18 @@
   </head>
 
   <body>
+    <div class="logo">
+    <img src="./images/logo.png" alt="logo" />
+    </div>
     <div class="header" id="myHeader">
       <header>
-        <div class="logo">
-          <img src="./images/logo.png" alt="logo" />
-        </div>
         <div class="navLink">
-          <a class="navigationLink" role="button" href="#skills-section">SKILLS</a>
-          <a
-            class="navigationLink"
-            role="button"
-            href="#Portfolio"
-            to="/portfolio"
-            >PORTFOLIO</a
-          >
-          <a class="navigationLink" role="button" href="#contact" to="/contact"
-            >CONTACT ME</a
-          >
+          <a class="navigationLink" role="button" href="#empty-skills-section">SKILLS</a>
+          <a class="navigationLink" role="button" href="#empty-portfolio-section" to="/portfolio">PORTFOLIO</a>
+          <a class="navigationLink" role="button" href="#contact" to="/contact">CONTACT ME</a>
         </div>
       </header>
-
     </div>
-    
 
     <main>
       <section id="about-section" class="section">
@@ -52,9 +42,11 @@
           </div>
         </div>
       </section>
+
+      <div id="empty-skills-section" style="height: 400px; width: 100%"></div>
+
       <section id="skills-section" class="skills-section">
         <div class="section-title">SKILLS</div>
-
         <div class="section-category">
           <div class="skills-category-label">LANGUAGES</div>
           <ul>
@@ -62,6 +54,7 @@
             <li class="skills-category-item">CSS</li>
             <li class="skills-category-item">JavaScript</li>
             <li class="skills-category-item">Ruby</li>
+            <li class="skills-category-item">YAML</li>
           </ul>
         </div>
 
@@ -84,15 +77,32 @@
           </ul>
         </div>
       </section>
+
+      <div
+        id="empty-portfolio-section"
+        style="height: 400px; width: 100%"
+      ></div>
+
+      <section id="portfolio-section" class="portfolio-section">
+        <h2>PORTFOLIO</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dolor?
+          Debitis ea libero nisi eveniet natus eum repudiandae maiores repellat
+          ut ratione porro at, aut sequi vero officia id facere.
+        </p>
+      </section>
     </main>
 
     <footer>
-      <div class=footer>
-      
+      <div class="footer">
         <h5>YUFERRIL YUNOS 2022</h5>
         <div class="footer-links">
-        <a href="https://www.linkedin.com/in/yuferril-yunos-b61534251/"><img src="./images/linkedin icon.png" alt="linkedin-icon"></a>
-        <a href="https://github.com/Vorg510"><img src="./images/github icon.png" alt="github-icon"></a>
+          <a href="https://www.linkedin.com/in/yuferril-yunos-b61534251/"
+            ><img src="./images/linkedin icon.png" alt="linkedin-icon"
+          /></a>
+          <a href="https://github.com/Vorg510"
+            ><img src="./images/github icon.png" alt="github-icon"
+          /></a>
         </div>
       </div>
     </footer>
