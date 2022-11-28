@@ -15,7 +15,7 @@ body {
 }
   
 
-div.logo {s
+div.logo {
     display: flex;
     justify-content: left;
 }
@@ -74,8 +74,8 @@ body h1 {
     text-align: center;
 }
 
-/*Img to the center*/
-main img {
+/*Header Img to the center*/
+#headshot {
     border: 3px solid white;
     background-color: burlywood;
     width: 20%;
@@ -136,10 +136,23 @@ main img {
 .portfolio-section p{
     font-family: 'Montserrat';
     color: #B1B1B1;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+#portfolio-contents {
     display: flex;
-    justify-content: center;
-    margin-left: 60px;
-    margin-right: 60px;
+    align-items: self-start;
+    margin-top: 60px
+}
+
+.portfolio-section img{
+    width: 700px;
+    margin-left: 50px;
+
 }
 
 /*SECTION - FOOTER*/
